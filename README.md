@@ -117,7 +117,7 @@ configurations.
     end
 
     httpd_service 'an websites' do
-      instance_name 'bob'
+      instance 'bob'
       servername 'www.computers.biz'
       version '2.4'
       mpm 'event'
